@@ -1,7 +1,8 @@
-# Further Web Monorepo - A1 & A2
+# Social Media Web App
+
+This is a social media web application built using React, NodeJS, ExpressJS, Sequelize ORM and a MySql Database. This was developed for a University project with my partner Thomas. We achieved full marks for this submission.
 
 #### By Thomas Yao and Dylan Khan
-
 
 First run `npm i` then `npm start` in root directory to start up client, server and admin dashboard in parallel.
 
