@@ -6,10 +6,7 @@ This is a social media web application built using React, NodeJS, ExpressJS, Seq
 Please not the project is using a database that is not as performant as the previous one used supplied by our university. Therefore this has lead to some issues with the application, mainly slow loading times. I apologise for this and hope you can still enjoy the application.
 
 ## Live Demo
-See it live here!
-
-Social Media Web App: 
-Admin Dashboard:
+I am currently in the process of hosting the application on a live server. I will update this README when it is live.
 
 ## Logins
 Please feel free to use any of the following login details, or create your own account.
