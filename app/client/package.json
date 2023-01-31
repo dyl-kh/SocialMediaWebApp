@@ -1,0 +1,71 @@
+{
+    "name": "thomas-dylan-fwp-a1",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@chakra-ui/color-mode": "^2.1.2",
+        "@chakra-ui/react": "^2.2.4",
+        "@contentful/rich-text-react-renderer": "^15.12.1",
+        "@emotion/react": "^11.10.0",
+        "@emotion/styled": "^11.10.0",
+        "@testing-library/jest-dom": "^5.16.4",
+        "@testing-library/react": "^13.3.0",
+        "@testing-library/user-event": "^14.3.0",
+        "axios": "^0.27.2",
+        "emailjs-com": "^3.2.0",
+        "escape-html": "^1.0.3",
+        "firebase": "^8.10.0",
+        "framer-motion": "^6.5.1",
+        "immutable": "^4.1.0",
+        "is-hotkey": "^0.2.0",
+        "jwt-decode": "^3.1.2",
+        "prop-types": "^15.8.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-icons": "^3.11.0",
+        "react-router-dom": "^6.3.0",
+        "react-scripts": "5.0.1",
+        "slate": "^0.82.1",
+        "slate-history": "^0.66.0",
+        "slate-react": "^0.83.2",
+        "styled-components": "^5.3.5",
+        "uuid": "^8.3.2",
+        "web-vitals": "^0.2.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "lint": "eslint ./",
+        "lint-fix": "eslint ./ --fix",
+        "format": "prettier --write \"**/*.{js,jsx,json,md}\""
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "eslint": "^8.20.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsx-a11y": "^6.6.1",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-react": "^7.31.10",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "prettier": "^2.7.1",
+        "pretty-quick": "^3.1.3"
+    }
+}
