@@ -133,14 +133,15 @@ const getAllDashboardOverviewData = async () => {
     });
     const mostLikedPosts = res.data.getTopReactedPosts;
 
-    res = await client.query({
-        query: GET_TOP_REACTED_POSTS,
-        variables: {
-            reactionType: 'dislike',
-            numberOfPosts: 10,
-        },
-    });
-    const mostDislikedPosts = res.data.getTopReactedPosts;
+    // res = await client.query({
+    //     query: GET_TOP_REACTED_POSTS,
+    //     variables: {
+    //         reactionType: 'dislike',
+    //         numberOfPosts: 10,
+    //     },
+    // });
+
+    // const mostDislikedPosts = await res.data.getTopReactedPosts;
 
     const contextState = {
         summaryStats,
@@ -149,7 +150,7 @@ const getAllDashboardOverviewData = async () => {
         dailyPostReacts,
         totalReactions,
         mostLikedPosts,
-        mostDislikedPosts,
+        // mostDislikedPosts,
     };
 
     // console.log('All data fetched', contextState);

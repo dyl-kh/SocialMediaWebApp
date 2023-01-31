@@ -77,12 +77,12 @@ const Dashboard = () => {
                             reactionType="like"
                         />
                     </Grid>
-                    <Grid item xs={12}>
+                    {/* <Grid item xs={12}>
                         <PostsTable
                             title="Most Disliked Posts"
                             reactionType="dislike"
                         />
-                    </Grid>
+                    </Grid> */}
                 </Grid>
             </Box>
         </Container>
