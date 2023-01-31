@@ -39,7 +39,9 @@
         "eject": "react-scripts eject",
         "lint": "eslint ./",
         "lint-fix": "eslint ./ --fix",
-        "format": "prettier --write \"**/*.{js,jsx,json,md}\""
+        "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": "react-app"
